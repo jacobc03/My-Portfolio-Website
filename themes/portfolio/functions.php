@@ -24,7 +24,8 @@ add_action( 'wp_enqueue_scripts', 'portfolio_styles' );
 /* Install Latest jQuery */
 function klima_jquery_init() {
 
-    // comment out the next two lines to load the local copy of jQuery
+    wp_deregister_script('jquery');
+
     wp_register_script('jquery', get_stylesheet_directory_uri() . '/js/jquery.js', array(), '3.3.1', true);
     wp_enqueue_script('jquery');
   
