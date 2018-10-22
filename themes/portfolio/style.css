@@ -6,6 +6,88 @@ Description: Custom Design for My Portfolio Website
 Version: 1.0
 */
 
-body{
-	background: red;
-}
+    html {
+        background-image: url(images/bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: -webkit-flex;
+        display: flex;
+        height: 100%;
+    }
+    body {
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
+        margin: 44px 44px 0;
+        position: relative;
+        width: 100%;
+    }
+    .fade {
+        opacity: 0;
+    }
+    img {
+        display: none;
+    }
+    canvas {
+        left: 50%;
+        max-height: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 50%;
+    }
+    .logo {
+        background-image: url(images/logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 27px;
+        left: 30px;
+        position: absolute;
+        top: 24px;
+        width: 29px;
+    }
+    .menu {
+        background-image: url(images/top_menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 7px;
+        position: absolute;
+        right: 36px;
+        top: 34px;
+        width: 239px;
+    }
+    .title {
+        background-image: url(images/title.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 38px;
+        left: 50%;
+        margin-left: -124px;
+        margin-top: -19px;
+        position: absolute;
+        top: 50%;
+        width: 248px;
+    }
+    .buttons {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        left: 50%;
+        margin-left: -115px;
+        margin-top: 40px;
+        position: absolute;
+        top: 50%;
+        width: 230px;
+    }
+    .icon {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 56px;
+        width: 56px;
+    }
